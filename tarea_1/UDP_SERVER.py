@@ -1,9 +1,9 @@
 from scapy.all import *
 from scapy.layers.inet import IP, UDP
 
-ORIGEN_IP = "192.168.100.20"
+ORIGEN_IP = "10.35.117.52"
 ORIGEN_PUERTO = 12345
-DESTINO_IP = "192.168.100.139"
+DESTINO_IP = "10.35.120.69"
 DESTINO_PUERTO = 54321
 
 Mensaje = "Hola"
